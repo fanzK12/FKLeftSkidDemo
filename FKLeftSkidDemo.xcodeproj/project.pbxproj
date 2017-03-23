@@ -13,6 +13,39 @@
 		18A1BC101E824EAC00E036A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A1BC0E1E824EAC00E036A5 /* Main.storyboard */; };
 		18A1BC121E824EAC00E036A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A1BC111E824EAC00E036A5 /* Assets.xcassets */; };
 		18A1BC151E824EAC00E036A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A1BC131E824EAC00E036A5 /* LaunchScreen.storyboard */; };
+		18A1BC261E82521000E036A5 /* FKLeftSkidVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BC251E82521000E036A5 /* FKLeftSkidVC.m */; };
+		18A1BC291E82523000E036A5 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BC281E82523000E036A5 /* UIView_extra.m */; };
+		18A1BC2C1E8254EA00E036A5 /* FKLeftSkidManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BC2B1E8254EA00E036A5 /* FKLeftSkidManager.m */; };
+		18A82BE51E836FA300B9BAC3 /* DKNightVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BC61E836FA300B9BAC3 /* DKNightVersionManager.m */; };
+		18A82BE61E836FA300B9BAC3 /* NSObject+Night.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BC81E836FA300B9BAC3 /* NSObject+Night.m */; };
+		18A82BE71E836FA300B9BAC3 /* UINavigationBar+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BCC1E836FA300B9BAC3 /* UINavigationBar+Animation.m */; };
+		18A82BE81E836FA300B9BAC3 /* UIBarButtonItem+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BD01E836FA300B9BAC3 /* UIBarButtonItem+TintColor.m */; };
+		18A82BE91E836FA300B9BAC3 /* UIButton+TitleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BD31E836FA300B9BAC3 /* UIButton+TitleColor.m */; };
+		18A82BEA1E836FA300B9BAC3 /* UILabel+TextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BD61E836FA300B9BAC3 /* UILabel+TextColor.m */; };
+		18A82BEB1E836FA300B9BAC3 /* UINavigationBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BD91E836FA300B9BAC3 /* UINavigationBar+BarTintColor.m */; };
+		18A82BEC1E836FA300B9BAC3 /* UINavigationBar+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BDB1E836FA300B9BAC3 /* UINavigationBar+TintColor.m */; };
+		18A82BED1E836FA300B9BAC3 /* UITabBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BDE1E836FA300B9BAC3 /* UITabBar+BarTintColor.m */; };
+		18A82BEE1E836FA300B9BAC3 /* UITableView+SeparatorColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BE11E836FA300B9BAC3 /* UITableView+SeparatorColor.m */; };
+		18A82BEF1E836FA300B9BAC3 /* UIView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BE41E836FA300B9BAC3 /* UIView+BackgroundColor.m */; };
+		18A82BF21E836FF100B9BAC3 /* FKLeftSortsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BF11E836FF100B9BAC3 /* FKLeftSortsVC.m */; };
+		18A82BF51E8371C700B9BAC3 /* FKMainNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BF41E8371C700B9BAC3 /* FKMainNavigationVC.m */; };
+		18A82BF81E8372B300B9BAC3 /* FKOtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BF71E8372B300B9BAC3 /* FKOtherVC.m */; };
+		18A82BFB1E83A1A000B9BAC3 /* TipsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BFA1E83A1A000B9BAC3 /* TipsManager.m */; };
+		18A82BFE1E83A31E00B9BAC3 /* FKMainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82BFD1E83A31E00B9BAC3 /* FKMainTabBar.m */; };
+		18A82C011E83A3CD00B9BAC3 /* FKMainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C001E83A3CD00B9BAC3 /* FKMainTabBarVC.m */; };
+		18A82C041E83A45C00B9BAC3 /* FKSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C031E83A45C00B9BAC3 /* FKSecondVC.m */; };
+		18A82C091E83A4AA00B9BAC3 /* UIControl+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C061E83A4AA00B9BAC3 /* UIControl+Helper.m */; };
+		18A82C0A1E83A4AA00B9BAC3 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C081E83A4AA00B9BAC3 /* UICountingLabel.m */; };
+		18A82C111E83A8FB00B9BAC3 /* C415F3F13BBD50B1-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A82C0C1E83A8FB00B9BAC3 /* C415F3F13BBD50B1-info.plist */; };
+		18A82C121E83A8FB00B9BAC3 /* STLVideoFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C0E1E83A8FB00B9BAC3 /* STLVideoFunctions.m */; };
+		18A82C131E83A8FB00B9BAC3 /* STLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C101E83A8FB00B9BAC3 /* STLVideoViewController.m */; };
+		18A82C151E83A91600B9BAC3 /* BridgeLoop-640p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A82C141E83A91600B9BAC3 /* BridgeLoop-640p.mp4 */; };
+		18A82C181E83A93800B9BAC3 /* FKLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C171E83A93800B9BAC3 /* FKLoginVC.m */; };
+		18A82C1B1E83AB0D00B9BAC3 /* FKFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C1A1E83AB0D00B9BAC3 /* FKFirstVC.m */; };
+		18A82C1F1E83B2AA00B9BAC3 /* FKAdvertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C1E1E83B2AA00B9BAC3 /* FKAdvertVC.m */; };
+		18A82C221E83B2EB00B9BAC3 /* FKLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C211E83B2EB00B9BAC3 /* FKLoadingView.m */; };
+		18A82C251E83B49300B9BAC3 /* FKAdvertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C241E83B49300B9BAC3 /* FKAdvertView.m */; };
+		18A82C281E83B50E00B9BAC3 /* FKAdvertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A82C271E83B50E00B9BAC3 /* FKAdvertManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +59,73 @@
 		18A1BC111E824EAC00E036A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A1BC141E824EAC00E036A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A1BC161E824EAC00E036A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A1BC241E82521000E036A5 /* FKLeftSkidVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLeftSkidVC.h; sourceTree = "<group>"; };
+		18A1BC251E82521000E036A5 /* FKLeftSkidVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLeftSkidVC.m; sourceTree = "<group>"; };
+		18A1BC271E82523000E036A5 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		18A1BC281E82523000E036A5 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		18A1BC2A1E8254EA00E036A5 /* FKLeftSkidManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLeftSkidManager.h; sourceTree = "<group>"; };
+		18A1BC2B1E8254EA00E036A5 /* FKLeftSkidManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLeftSkidManager.m; sourceTree = "<group>"; };
+		18A1BC2E1E82589700E036A5 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		18A1BC2F1E82591500E036A5 /* FKPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPrefixHeader.pch; sourceTree = "<group>"; };
+		18A82BC51E836FA300B9BAC3 /* DKNightVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNightVersionManager.h; sourceTree = "<group>"; };
+		18A82BC61E836FA300B9BAC3 /* DKNightVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNightVersionManager.m; sourceTree = "<group>"; };
+		18A82BC71E836FA300B9BAC3 /* NSObject+Night.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Night.h"; sourceTree = "<group>"; };
+		18A82BC81E836FA300B9BAC3 /* NSObject+Night.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Night.m"; sourceTree = "<group>"; };
+		18A82BC91E836FA300B9BAC3 /* DKNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNightVersion.h; sourceTree = "<group>"; };
+		18A82BCB1E836FA300B9BAC3 /* UINavigationBar+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Animation.h"; sourceTree = "<group>"; };
+		18A82BCC1E836FA300B9BAC3 /* UINavigationBar+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Animation.m"; sourceTree = "<group>"; };
+		18A82BCF1E836FA300B9BAC3 /* UIBarButtonItem+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TintColor.h"; sourceTree = "<group>"; };
+		18A82BD01E836FA300B9BAC3 /* UIBarButtonItem+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TintColor.m"; sourceTree = "<group>"; };
+		18A82BD21E836FA300B9BAC3 /* UIButton+TitleColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitleColor.h"; sourceTree = "<group>"; };
+		18A82BD31E836FA300B9BAC3 /* UIButton+TitleColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitleColor.m"; sourceTree = "<group>"; };
+		18A82BD51E836FA300B9BAC3 /* UILabel+TextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TextColor.h"; sourceTree = "<group>"; };
+		18A82BD61E836FA300B9BAC3 /* UILabel+TextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TextColor.m"; sourceTree = "<group>"; };
+		18A82BD81E836FA300B9BAC3 /* UINavigationBar+BarTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BarTintColor.h"; sourceTree = "<group>"; };
+		18A82BD91E836FA300B9BAC3 /* UINavigationBar+BarTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BarTintColor.m"; sourceTree = "<group>"; };
+		18A82BDA1E836FA300B9BAC3 /* UINavigationBar+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TintColor.h"; sourceTree = "<group>"; };
+		18A82BDB1E836FA300B9BAC3 /* UINavigationBar+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TintColor.m"; sourceTree = "<group>"; };
+		18A82BDD1E836FA300B9BAC3 /* UITabBar+BarTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+BarTintColor.h"; sourceTree = "<group>"; };
+		18A82BDE1E836FA300B9BAC3 /* UITabBar+BarTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+BarTintColor.m"; sourceTree = "<group>"; };
+		18A82BE01E836FA300B9BAC3 /* UITableView+SeparatorColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SeparatorColor.h"; sourceTree = "<group>"; };
+		18A82BE11E836FA300B9BAC3 /* UITableView+SeparatorColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SeparatorColor.m"; sourceTree = "<group>"; };
+		18A82BE31E836FA300B9BAC3 /* UIView+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundColor.h"; sourceTree = "<group>"; };
+		18A82BE41E836FA300B9BAC3 /* UIView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundColor.m"; sourceTree = "<group>"; };
+		18A82BF01E836FF100B9BAC3 /* FKLeftSortsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLeftSortsVC.h; sourceTree = "<group>"; };
+		18A82BF11E836FF100B9BAC3 /* FKLeftSortsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLeftSortsVC.m; sourceTree = "<group>"; };
+		18A82BF31E8371C700B9BAC3 /* FKMainNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKMainNavigationVC.h; sourceTree = "<group>"; };
+		18A82BF41E8371C700B9BAC3 /* FKMainNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKMainNavigationVC.m; sourceTree = "<group>"; };
+		18A82BF61E8372B300B9BAC3 /* FKOtherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKOtherVC.h; sourceTree = "<group>"; };
+		18A82BF71E8372B300B9BAC3 /* FKOtherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKOtherVC.m; sourceTree = "<group>"; };
+		18A82BF91E83A1A000B9BAC3 /* TipsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsManager.h; sourceTree = "<group>"; };
+		18A82BFA1E83A1A000B9BAC3 /* TipsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsManager.m; sourceTree = "<group>"; };
+		18A82BFC1E83A31E00B9BAC3 /* FKMainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKMainTabBar.h; sourceTree = "<group>"; };
+		18A82BFD1E83A31E00B9BAC3 /* FKMainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKMainTabBar.m; sourceTree = "<group>"; };
+		18A82BFF1E83A3CD00B9BAC3 /* FKMainTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKMainTabBarVC.h; sourceTree = "<group>"; };
+		18A82C001E83A3CD00B9BAC3 /* FKMainTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKMainTabBarVC.m; sourceTree = "<group>"; };
+		18A82C021E83A45C00B9BAC3 /* FKSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSecondVC.h; sourceTree = "<group>"; };
+		18A82C031E83A45C00B9BAC3 /* FKSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSecondVC.m; sourceTree = "<group>"; };
+		18A82C051E83A4AA00B9BAC3 /* UIControl+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Helper.h"; sourceTree = "<group>"; };
+		18A82C061E83A4AA00B9BAC3 /* UIControl+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Helper.m"; sourceTree = "<group>"; };
+		18A82C071E83A4AA00B9BAC3 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		18A82C081E83A4AA00B9BAC3 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		18A82C0C1E83A8FB00B9BAC3 /* C415F3F13BBD50B1-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "C415F3F13BBD50B1-info.plist"; sourceTree = "<group>"; };
+		18A82C0D1E83A8FB00B9BAC3 /* STLVideoFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLVideoFunctions.h; sourceTree = "<group>"; };
+		18A82C0E1E83A8FB00B9BAC3 /* STLVideoFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLVideoFunctions.m; sourceTree = "<group>"; };
+		18A82C0F1E83A8FB00B9BAC3 /* STLVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLVideoViewController.h; sourceTree = "<group>"; };
+		18A82C101E83A8FB00B9BAC3 /* STLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLVideoViewController.m; sourceTree = "<group>"; };
+		18A82C141E83A91600B9BAC3 /* BridgeLoop-640p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BridgeLoop-640p.mp4"; sourceTree = "<group>"; };
+		18A82C161E83A93800B9BAC3 /* FKLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLoginVC.h; sourceTree = "<group>"; };
+		18A82C171E83A93800B9BAC3 /* FKLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLoginVC.m; sourceTree = "<group>"; };
+		18A82C191E83AB0D00B9BAC3 /* FKFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKFirstVC.h; sourceTree = "<group>"; };
+		18A82C1A1E83AB0D00B9BAC3 /* FKFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKFirstVC.m; sourceTree = "<group>"; };
+		18A82C1D1E83B2AA00B9BAC3 /* FKAdvertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAdvertVC.h; sourceTree = "<group>"; };
+		18A82C1E1E83B2AA00B9BAC3 /* FKAdvertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAdvertVC.m; sourceTree = "<group>"; };
+		18A82C201E83B2EB00B9BAC3 /* FKLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLoadingView.h; sourceTree = "<group>"; };
+		18A82C211E83B2EB00B9BAC3 /* FKLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLoadingView.m; sourceTree = "<group>"; };
+		18A82C231E83B49300B9BAC3 /* FKAdvertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAdvertView.h; sourceTree = "<group>"; };
+		18A82C241E83B49300B9BAC3 /* FKAdvertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAdvertView.m; sourceTree = "<group>"; };
+		18A82C261E83B50E00B9BAC3 /* FKAdvertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAdvertManager.h; sourceTree = "<group>"; };
+		18A82C271E83B50E00B9BAC3 /* FKAdvertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAdvertManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +158,20 @@
 		18A1BC041E824EAC00E036A5 /* FKLeftSkidDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18A82C0B1E83A8FB00B9BAC3 /* STLBGVideo */,
+				18A82BC31E836FA300B9BAC3 /* DKNightVerson */,
+				18A1BC1C1E8251A500E036A5 /* Category */,
+				18A1BC1D1E8251A500E036A5 /* Class */,
+				18A1BC221E8251A500E036A5 /* LeftSkidViewController */,
+				18A1BC231E8251A500E036A5 /* ThirdLib */,
 				18A1BC081E824EAC00E036A5 /* AppDelegate.h */,
 				18A1BC091E824EAC00E036A5 /* AppDelegate.m */,
 				18A1BC0B1E824EAC00E036A5 /* ViewController.h */,
 				18A1BC0C1E824EAC00E036A5 /* ViewController.m */,
+				18A1BC2F1E82591500E036A5 /* FKPrefixHeader.pch */,
 				18A1BC0E1E824EAC00E036A5 /* Main.storyboard */,
 				18A1BC111E824EAC00E036A5 /* Assets.xcassets */,
+				18A82C141E83A91600B9BAC3 /* BridgeLoop-640p.mp4 */,
 				18A1BC131E824EAC00E036A5 /* LaunchScreen.storyboard */,
 				18A1BC161E824EAC00E036A5 /* Info.plist */,
 				18A1BC051E824EAC00E036A5 /* Supporting Files */,
@@ -77,6 +185,233 @@
 				18A1BC061E824EAC00E036A5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A1BC1C1E8251A500E036A5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18A82C051E83A4AA00B9BAC3 /* UIControl+Helper.h */,
+				18A82C061E83A4AA00B9BAC3 /* UIControl+Helper.m */,
+				18A82C071E83A4AA00B9BAC3 /* UICountingLabel.h */,
+				18A82C081E83A4AA00B9BAC3 /* UICountingLabel.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18A1BC1D1E8251A500E036A5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				18A82C1C1E83B28700B9BAC3 /* FKAdvert */,
+				18A1BC1E1E8251A500E036A5 /* FKConmmon */,
+				18A1BC1F1E8251A500E036A5 /* FKFirstVC */,
+				18A1BC201E8251A500E036A5 /* FKOthers */,
+				18A1BC211E8251A500E036A5 /* FKSecondVC */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		18A1BC1E1E8251A500E036A5 /* FKConmmon */ = {
+			isa = PBXGroup;
+			children = (
+				18A1BC2E1E82589700E036A5 /* Macro.h */,
+				18A82C201E83B2EB00B9BAC3 /* FKLoadingView.h */,
+				18A82C211E83B2EB00B9BAC3 /* FKLoadingView.m */,
+			);
+			path = FKConmmon;
+			sourceTree = "<group>";
+		};
+		18A1BC1F1E8251A500E036A5 /* FKFirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				18A82C191E83AB0D00B9BAC3 /* FKFirstVC.h */,
+				18A82C1A1E83AB0D00B9BAC3 /* FKFirstVC.m */,
+			);
+			path = FKFirstVC;
+			sourceTree = "<group>";
+		};
+		18A1BC201E8251A500E036A5 /* FKOthers */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BF01E836FF100B9BAC3 /* FKLeftSortsVC.h */,
+				18A82BF11E836FF100B9BAC3 /* FKLeftSortsVC.m */,
+				18A82BF61E8372B300B9BAC3 /* FKOtherVC.h */,
+				18A82BF71E8372B300B9BAC3 /* FKOtherVC.m */,
+				18A82BF31E8371C700B9BAC3 /* FKMainNavigationVC.h */,
+				18A82BF41E8371C700B9BAC3 /* FKMainNavigationVC.m */,
+				18A82BFC1E83A31E00B9BAC3 /* FKMainTabBar.h */,
+				18A82BFD1E83A31E00B9BAC3 /* FKMainTabBar.m */,
+				18A82BFF1E83A3CD00B9BAC3 /* FKMainTabBarVC.h */,
+				18A82C001E83A3CD00B9BAC3 /* FKMainTabBarVC.m */,
+			);
+			path = FKOthers;
+			sourceTree = "<group>";
+		};
+		18A1BC211E8251A500E036A5 /* FKSecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				18A82C021E83A45C00B9BAC3 /* FKSecondVC.h */,
+				18A82C031E83A45C00B9BAC3 /* FKSecondVC.m */,
+				18A82C161E83A93800B9BAC3 /* FKLoginVC.h */,
+				18A82C171E83A93800B9BAC3 /* FKLoginVC.m */,
+			);
+			path = FKSecondVC;
+			sourceTree = "<group>";
+		};
+		18A1BC221E8251A500E036A5 /* LeftSkidViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18A1BC271E82523000E036A5 /* UIView_extra.h */,
+				18A1BC281E82523000E036A5 /* UIView_extra.m */,
+				18A1BC241E82521000E036A5 /* FKLeftSkidVC.h */,
+				18A1BC251E82521000E036A5 /* FKLeftSkidVC.m */,
+				18A1BC2A1E8254EA00E036A5 /* FKLeftSkidManager.h */,
+				18A1BC2B1E8254EA00E036A5 /* FKLeftSkidManager.m */,
+			);
+			path = LeftSkidViewController;
+			sourceTree = "<group>";
+		};
+		18A1BC231E8251A500E036A5 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BF91E83A1A000B9BAC3 /* TipsManager.h */,
+				18A82BFA1E83A1A000B9BAC3 /* TipsManager.m */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		18A82BC31E836FA300B9BAC3 /* DKNightVerson */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BC41E836FA300B9BAC3 /* Core */,
+				18A82BC91E836FA300B9BAC3 /* DKNightVersion.h */,
+				18A82BCA1E836FA300B9BAC3 /* Helper */,
+				18A82BCD1E836FA300B9BAC3 /* UIKit */,
+			);
+			path = DKNightVerson;
+			sourceTree = "<group>";
+		};
+		18A82BC41E836FA300B9BAC3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BC51E836FA300B9BAC3 /* DKNightVersionManager.h */,
+				18A82BC61E836FA300B9BAC3 /* DKNightVersionManager.m */,
+				18A82BC71E836FA300B9BAC3 /* NSObject+Night.h */,
+				18A82BC81E836FA300B9BAC3 /* NSObject+Night.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18A82BCA1E836FA300B9BAC3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BCB1E836FA300B9BAC3 /* UINavigationBar+Animation.h */,
+				18A82BCC1E836FA300B9BAC3 /* UINavigationBar+Animation.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18A82BCD1E836FA300B9BAC3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BCE1E836FA300B9BAC3 /* UIBarButtonItem */,
+				18A82BD11E836FA300B9BAC3 /* UIButton */,
+				18A82BD41E836FA300B9BAC3 /* UILabel */,
+				18A82BD71E836FA300B9BAC3 /* UINavigationBar */,
+				18A82BDC1E836FA300B9BAC3 /* UITabBar */,
+				18A82BDF1E836FA300B9BAC3 /* UITableView */,
+				18A82BE21E836FA300B9BAC3 /* UIView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		18A82BCE1E836FA300B9BAC3 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BCF1E836FA300B9BAC3 /* UIBarButtonItem+TintColor.h */,
+				18A82BD01E836FA300B9BAC3 /* UIBarButtonItem+TintColor.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		18A82BD11E836FA300B9BAC3 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BD21E836FA300B9BAC3 /* UIButton+TitleColor.h */,
+				18A82BD31E836FA300B9BAC3 /* UIButton+TitleColor.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		18A82BD41E836FA300B9BAC3 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BD51E836FA300B9BAC3 /* UILabel+TextColor.h */,
+				18A82BD61E836FA300B9BAC3 /* UILabel+TextColor.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		18A82BD71E836FA300B9BAC3 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BD81E836FA300B9BAC3 /* UINavigationBar+BarTintColor.h */,
+				18A82BD91E836FA300B9BAC3 /* UINavigationBar+BarTintColor.m */,
+				18A82BDA1E836FA300B9BAC3 /* UINavigationBar+TintColor.h */,
+				18A82BDB1E836FA300B9BAC3 /* UINavigationBar+TintColor.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		18A82BDC1E836FA300B9BAC3 /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BDD1E836FA300B9BAC3 /* UITabBar+BarTintColor.h */,
+				18A82BDE1E836FA300B9BAC3 /* UITabBar+BarTintColor.m */,
+			);
+			path = UITabBar;
+			sourceTree = "<group>";
+		};
+		18A82BDF1E836FA300B9BAC3 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BE01E836FA300B9BAC3 /* UITableView+SeparatorColor.h */,
+				18A82BE11E836FA300B9BAC3 /* UITableView+SeparatorColor.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		18A82BE21E836FA300B9BAC3 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				18A82BE31E836FA300B9BAC3 /* UIView+BackgroundColor.h */,
+				18A82BE41E836FA300B9BAC3 /* UIView+BackgroundColor.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		18A82C0B1E83A8FB00B9BAC3 /* STLBGVideo */ = {
+			isa = PBXGroup;
+			children = (
+				18A82C0C1E83A8FB00B9BAC3 /* C415F3F13BBD50B1-info.plist */,
+				18A82C0D1E83A8FB00B9BAC3 /* STLVideoFunctions.h */,
+				18A82C0E1E83A8FB00B9BAC3 /* STLVideoFunctions.m */,
+				18A82C0F1E83A8FB00B9BAC3 /* STLVideoViewController.h */,
+				18A82C101E83A8FB00B9BAC3 /* STLVideoViewController.m */,
+			);
+			path = STLBGVideo;
+			sourceTree = "<group>";
+		};
+		18A82C1C1E83B28700B9BAC3 /* FKAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				18A82C1D1E83B2AA00B9BAC3 /* FKAdvertVC.h */,
+				18A82C1E1E83B2AA00B9BAC3 /* FKAdvertVC.m */,
+				18A82C231E83B49300B9BAC3 /* FKAdvertView.h */,
+				18A82C241E83B49300B9BAC3 /* FKAdvertView.m */,
+				18A82C261E83B50E00B9BAC3 /* FKAdvertManager.h */,
+				18A82C271E83B50E00B9BAC3 /* FKAdvertManager.m */,
+			);
+			path = FKAdvert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +475,8 @@
 			files = (
 				18A1BC151E824EAC00E036A5 /* LaunchScreen.storyboard in Resources */,
 				18A1BC121E824EAC00E036A5 /* Assets.xcassets in Resources */,
+				18A82C111E83A8FB00B9BAC3 /* C415F3F13BBD50B1-info.plist in Resources */,
+				18A82C151E83A91600B9BAC3 /* BridgeLoop-640p.mp4 in Resources */,
 				18A1BC101E824EAC00E036A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +488,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A82BEB1E836FA300B9BAC3 /* UINavigationBar+BarTintColor.m in Sources */,
+				18A82BED1E836FA300B9BAC3 /* UITabBar+BarTintColor.m in Sources */,
+				18A82C251E83B49300B9BAC3 /* FKAdvertView.m in Sources */,
+				18A82BF81E8372B300B9BAC3 /* FKOtherVC.m in Sources */,
+				18A82BE91E836FA300B9BAC3 /* UIButton+TitleColor.m in Sources */,
+				18A82C181E83A93800B9BAC3 /* FKLoginVC.m in Sources */,
+				18A82BEE1E836FA300B9BAC3 /* UITableView+SeparatorColor.m in Sources */,
+				18A82C0A1E83A4AA00B9BAC3 /* UICountingLabel.m in Sources */,
+				18A82C281E83B50E00B9BAC3 /* FKAdvertManager.m in Sources */,
+				18A82C041E83A45C00B9BAC3 /* FKSecondVC.m in Sources */,
+				18A82C121E83A8FB00B9BAC3 /* STLVideoFunctions.m in Sources */,
+				18A82BEF1E836FA300B9BAC3 /* UIView+BackgroundColor.m in Sources */,
+				18A82BE61E836FA300B9BAC3 /* NSObject+Night.m in Sources */,
+				18A82BFE1E83A31E00B9BAC3 /* FKMainTabBar.m in Sources */,
+				18A82C1B1E83AB0D00B9BAC3 /* FKFirstVC.m in Sources */,
+				18A1BC2C1E8254EA00E036A5 /* FKLeftSkidManager.m in Sources */,
+				18A82C131E83A8FB00B9BAC3 /* STLVideoViewController.m in Sources */,
+				18A82C091E83A4AA00B9BAC3 /* UIControl+Helper.m in Sources */,
+				18A1BC291E82523000E036A5 /* UIView_extra.m in Sources */,
+				18A82BF21E836FF100B9BAC3 /* FKLeftSortsVC.m in Sources */,
+				18A82BE81E836FA300B9BAC3 /* UIBarButtonItem+TintColor.m in Sources */,
+				18A82BE51E836FA300B9BAC3 /* DKNightVersionManager.m in Sources */,
+				18A82C221E83B2EB00B9BAC3 /* FKLoadingView.m in Sources */,
+				18A82BE71E836FA300B9BAC3 /* UINavigationBar+Animation.m in Sources */,
 				18A1BC0D1E824EAC00E036A5 /* ViewController.m in Sources */,
+				18A82C011E83A3CD00B9BAC3 /* FKMainTabBarVC.m in Sources */,
+				18A82C1F1E83B2AA00B9BAC3 /* FKAdvertVC.m in Sources */,
+				18A1BC261E82521000E036A5 /* FKLeftSkidVC.m in Sources */,
+				18A82BEC1E836FA300B9BAC3 /* UINavigationBar+TintColor.m in Sources */,
+				18A82BF51E8371C700B9BAC3 /* FKMainNavigationVC.m in Sources */,
 				18A1BC0A1E824EAC00E036A5 /* AppDelegate.m in Sources */,
 				18A1BC071E824EAC00E036A5 /* main.m in Sources */,
+				18A82BFB1E83A1A000B9BAC3 /* TipsManager.m in Sources */,
+				18A82BEA1E836FA300B9BAC3 /* UILabel+TextColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G585J4946N;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FKLeftSkidDemo/FKPrefixHeader.pch";
 				INFOPLIST_FILE = FKLeftSkidDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = admin.FKLeftSkidDemo;
@@ -284,6 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G585J4946N;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FKLeftSkidDemo/FKPrefixHeader.pch";
 				INFOPLIST_FILE = FKLeftSkidDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = admin.FKLeftSkidDemo;
@@ -310,6 +680,7 @@
 				18A1BC1B1E824EAC00E036A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

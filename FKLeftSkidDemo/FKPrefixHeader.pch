@@ -1,0 +1,17 @@
+//
+//  FKPrefixHeader.pch
+//  FKLeftSkidDemo
+//
+//  Created by apple on 17/3/22.
+//  Copyright © 2017年 admin. All rights reserved.
+//
+
+#ifndef FKPrefixHeader_pch
+#define FKPrefixHeader_pch
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Macro.h"
+#import "TipsManager.h"
+#endif /* FKPrefixHeader_pch */
+#endif
